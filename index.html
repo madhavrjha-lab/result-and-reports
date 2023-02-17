@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Report Card</title>
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <aside>
+    <ul>
+      <li>Autem, quasi!</li>
+      <li>In, amet?</li>
+      <li>Facere, nostrum.</li>
+      <li>Dolorum, aspernatur?</li>
+      <li>Aspernatur, earum.</li>
+      <li>Saepe, pariatur.</li>
+      <li>Ut, laudantium.</li>
+      <li>Error, ipsam.</li>
+      <li>Fuga, placeat.</li>
+      <li>Ut, odit.</li>
+      <li>Rem, vitae.</li>
+      <li>Exercitationem, corrupti.</li>
+      <li>Culpa, ab.</li>
+    </ul>
+  </aside>
+  <main>
+    <div class="page-head">
+      <h2>NextSchool | Acadamics | Result & Reports</h2>
+    </div>
+
+    <div class="report-forms">
+      <form class="form-view">
+        <h2>View Reports</h2>
+        <div class="input-box">
+          <label for="">Grade</label>
+          <select name="" id="">
+            <option selected disabled>Select</option>
+            <option value="7A">7A</option>
+            <option value="7B">7B</option>
+            <option value="7C">7C</option>
+          </select>
+        </div>
+        <div class="input-box">
+          <label for="">Subject</label>
+          <select name="" id="">
+            <option selected disabled>Select</option>
+            <option value="Math">Mathematics</option>
+            <option value="Eng">English</option>
+            <option value="Sci">Science</option>
+          </select>
+        </div>
+        <!-- <div class="input-inline-box">
+          <div>
+            <input type="checkbox" name="s1" id="s1">
+            <label for="s1">Semester 1</label>
+          </div>
+          <div>
+            <input type="checkbox" name="s2" id="s2">
+            <label for="s2">Semester 2</label>
+          </div>
+          <div>
+            <input type="checkbox" name="t1" id="t1">
+            <label for="t1">Class Test 1</label>
+          </div>
+          <div>
+            <input type="checkbox" name="t2" id="t2">
+            <label for="t2">Class Test 2</label>
+          </div>
+        </div> -->
+        <div class="input-box">
+          <button type="submit">View Reports</button>
+        </div>
+      </form>
+      <form class="form-view">
+        <h2>Create Test</h2>
+        <div class="input-box">
+          <label for="">Grade</label>
+          <select name="" id="">
+            <option selected disabled>Select</option>
+            <option value="7A">7A</option>
+            <option value="7B">7B</option>
+            <option value="7C">7C</option>
+          </select>
+        </div>
+        <div class="input-box">
+          <label for="">Subject</label>
+          <select name="" id="">
+            <option selected disabled>Select</option>
+            <option value="Math">Mathematics</option>
+            <option value="Eng">English</option>
+            <option value="Sci">Science</option>
+          </select>
+        </div>
+        <div class="input-box">
+          <label for="">Test Label</label>
+          <input type="text" placeholder="Enter Test Name">
+        </div>
+        <div class="input-box">
+          <label for="">Out of Marks</label>
+          <input type="text" placeholder="Enter Marks">
+        </div>
+        <div class="input-box">
+          <button type="submit">Add Test</button>
+        </div>
+      </form>
+      <form class="form-view">
+        <h2>Edit Marks</h2>
+        <div class="input-box">
+          <label for="">Grade</label>
+          <select name="" id="">
+            <option selected disabled>Select</option>
+            <option value="7A">7A</option>
+            <option value="7B">7B</option>
+            <option value="7C">7C</option>
+          </select>
+        </div>
+        <div class="input-box">
+          <label for="">Subject</label>
+          <select name="" id="">
+            <option selected disabled>Select</option>
+            <option value="Math">Mathematics</option>
+            <option value="Eng">English</option>
+            <option value="Sci">Science</option>
+          </select>
+        </div>
+        <div class="input-box">
+          <label for="">Test Label</label>
+          <select name="" id="">
+            <option selected disabled>Select</option>
+            <option value="t1">Test 1</option>
+            <option value="s1">Semester 1</option>
+            <option value="t2">Test 2</option>
+            <option value="s2">Semester 2</option>
+          </select>
+        </div>
+        <div class="input-box">
+          <button type="submit">Edit Marks</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="table-view">
+      <table>
+        <tr>
+          <th rowspan="3">#</th>
+          <th rowspan="3">Learner</th>
+          <th rowspan="3">Subject</th>
+          <th rowspan="3">Class</th>
+          <th colspan="2">Educator 1</th>
+          <th colspan="2">Educator 2</th>
+          <th colspan="2">Class Educator</th>
+        </tr>
+        <tr>
+          <th colspan="2">Class Test - I</th>
+          <th colspan="2">Semester - I</th>
+          <th colspan="2">Total Marks</th>
+        </tr>
+        <tr>
+          <th>Score</th>
+          <th>Out Of</th>
+          <th>Score</th>
+          <th>Out Of</th>
+          <th>Score</th>
+          <th>Out Of</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Chinyelu Tshepo</td>
+          <td>Mathematics</td>
+          <td>7A</td>
+          <td>16</td>
+          <td>20</td>
+          <td class="edit"><input type="text" name="" placeholder="Marks" /></td>
+          <td>80</td>
+          <td>16</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Pilirani Hadija</td>
+          <td>Mathematics</td>
+          <td>7A</td>
+          <td>09</td>
+          <td>20</td>
+          <td class="edit"><input type="text" name="" placeholder="Marks" /></td>
+          <td>80</td>
+          <td>09</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Karabo Boipelo</td>
+          <td>Mathematics</td>
+          <td>7A</td>
+          <td>18</td>
+          <td>20</td>
+          <td class="edit"><input type="text" name="" placeholder="Marks" /></td>
+          <td>80</td>
+          <td>18</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Thulile Fadumo</td>
+          <td>Mathematics</td>
+          <td>7A</td>
+          <td>20</td>
+          <td>20</td>
+          <td class="edit"><input type="text" name="" placeholder="Marks" /></td>
+          <td>80</td>
+          <td>20</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Yao Ntombizodwa</td>
+          <td>Mathematics</td>
+          <td>7A</td>
+          <td>16</td>
+          <td>20</td>
+          <td class="edit"><input type="text" name="" placeholder="Marks" /></td>
+          <td>80</td>
+          <td>16</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Lelise Amadi</td>
+          <td>Mathematics</td>
+          <td>7A</td>
+          <td>12</td>
+          <td>20</td>
+          <td class="edit"><input type="text" name="" placeholder="Marks" /></td>
+          <td>80</td>
+          <td>12</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>Mayeso Hadizatu</td>
+          <td>Mathematics</td>
+          <td>7A</td>
+          <td>07</td>
+          <td>20</td>
+          <td class="edit"><input type="text" name="" placeholder="Marks" /></td>
+          <td>80</td>
+          <td>07</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>Alaba Wamalwa</td>
+          <td>Mathematics</td>
+          <td>7A</td>
+          <td>11</td>
+          <td>20</td>
+          <td class="edit"><input type="text" name="" placeholder="Marks" /></td>
+          <td>80</td>
+          <td>11</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>Mandlenkosi Abdoulaye</td>
+          <td>Mathematics</td>
+          <td>7A</td>
+          <td>17</td>
+          <td>20</td>
+          <td class="edit"><input type="text" name="" placeholder="Marks" /></td>
+          <td>80</td>
+          <td>17</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>Masozi Kelechi</td>
+          <td>Mathematics</td>
+          <td>7A</td>
+          <td>19</td>
+          <td>20</td>
+          <td class="edit"><input type="text" name="" placeholder="Marks" /></td>
+          <td>80</td>
+          <td>19</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <th>*</th>
+          <th>Average Remarks</th>
+          <th>Mathematics</th>
+          <th>7A</th>
+          <th>14.5</th>
+          <th>20</th>
+          <th class="save"><button type="submit">Save</button></th>
+          <th>80</th>
+          <th>14.5</th>
+          <th>100</th>
+        </tr>
+      </table>
+    </div>
+  </main>
+
+  <script>
+    class UI {
+      static handleTableInputFocus() {
+        const tdInputs = document.querySelectorAll('td.edit input');
+        tdInputs.forEach(input => {
+          input.addEventListener('focus', (e) => {
+            e.target.parentElement.classList.add('focus');
+          });
+          input.addEventListener('blur', (e) => {
+            e.target.parentElement.classList.remove('focus');
+          });
+
+        });
+      }
+    }
+
+    function main() {
+      UI.handleTableInputFocus();
+    }
+
+    main();
+  </script>
+
+</body>
+
+</html>
